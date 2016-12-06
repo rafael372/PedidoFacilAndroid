@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical" >
+    <ListView
+        android:id="@+id/tela_atualizar_Cadastros_lstStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tela_atualizar_Cadastros_txtStatusReceberFPT"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" />
+
+    <TextView
+        android:id="@+id/tela_atualizar_Cadastros_txtStatusReceberFPT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tela_atualizar_Cadastros_progressBar"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:clickable="false"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/tela_atualizar_Cadastros_progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bttAtualizar"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:id="@+id/bttAtualizar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tela_atualizar_Cadastros_bttSairFTP"
+        android:layout_alignParentLeft="true"
+        android:onClick="onClickBttAtualizar"
+        android:textSize="20sp"
+        android:layout_margin="16dp"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="16dp"
+        android:text="@string/lblAtualizar"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tela_atualizar_Cadastros_bttSairFTP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtRodape"
+        android:onClick="onClickBttSairFTP"
+        android:text="Sair"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtRodape"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:clickable="false"
+        android:enabled="false"
+        android:focusable="false" />
+
+</RelativeLayout>

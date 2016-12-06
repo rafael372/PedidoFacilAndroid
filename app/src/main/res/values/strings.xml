@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Pedido Fácil</string>
+
+    <!-- Strings related to login -->
+    <string name="tela_login">Login de acesso</string>
+    <string name="lblUsuario">Usuário</string>
+    <string name="lblSenha">Senha</string>
+    <string name="lblEntrar">Entrar</string>
+    <string name="lblAtualizar">Atualizar</string>
+    <string name="lblAtuCad">Atualizar Cadastros</string>
+    <string name="erro_usuario_invalido">Usuário inválido</string>
+    <string name="erro_senha_invalida">Senha inválida</string>
+    <string name="erro_campo_obrigatorio">Campo obrigatório</string>
+    <string name="title_activity_mesas">Mesas</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pedido">Pedidos</string>
+</resources>

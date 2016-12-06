@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="0,1,2,3"
+        android:stretchColumns="0,1,2,3" >
+        <TableRow>
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="fill_parent"
+                android:text="Código:"
+                android:textSize="20sp" >
+            </TextView>
+            <TextView
+                android:id="@+id/txtCodigo"
+                android:layout_width="100sp"
+                android:layout_height="fill_parent"
+                android:textSize="20sp" >
+            </TextView>
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="fill_parent"
+                android:text="Preço:"
+                android:textSize="20sp" >
+            </TextView>
+            <TextView
+                android:id="@+id/txtPreco"
+                android:layout_width="100sp"
+                android:layout_height="fill_parent"
+                android:textSize="20sp" >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/txtDescricao"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" >
+    </TextView>
+
+</LinearLayout>
